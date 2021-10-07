@@ -16,5 +16,6 @@ namespace API.Dtos
         public decimal Subtotal { get; set; }
         public decimal Total { get; set; }
         public string Status { get; set; }
+        public string PaymentIntentId { get; set; }
     }
 }
